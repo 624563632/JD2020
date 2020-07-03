@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    width:1190px;
+    margin:0 auto;
+}
+ // header start
+
+.header{
+    height:105px;
+    width:100%;
+    box-shadow: 0 1px 5px #bca6c0;;
+    .logo{
+        width:300px;
+        padding:15px 30px;
+        position: relative;
+        float:left;
+        h2{
+            font-weight: normal;
+            position: absolute;
+            top:36px;
+            left:240px;
+            color:#666;
+        }
+    }
+    .login{
+        float:right;
+        text-align: center;
+        line-height: 120px;
+        a{
+            color:#e22;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+ // header end
+
+  // content start
+.content{
+    height:475px;
+    
+    .conCenter{
+        position: relative;
+        padding:20px;
+        .ipt{
+            width:550px;
+            height:300px;
+            margin:0 auto;
+            padding:50px 10px;
+            text-align: center;
+            .phone{
+                height:55px;
+                width:400px;
+                margin:0 auto;
+                border:1px solid #ccc;
+                font-size:14px;
+                .china{
+                    width:80px;
+                    height:15px;
+                    line-height:15px;
+                    padding:20px 10px 20px 20px;
+                    float:left;
+                    background:#fff;
+                    border-right:1px solid #ccc;
+                }
+                input{
+                    width:268px;
+                    height:34px;
+                    padding:10px;
+                    float:left;
+                    border:none;
+                    outline: none;
+                }
+            }
+            .checking{
+                height:55px;
+                width:400px;
+                margin:0 auto;
+                border:1px solid #ccc;
+                background:#fff;
+                margin-top:40px;
+                .pass{
+                    width:80px;
+                    height:15px;
+                    line-height:15px;
+                    padding:20px 10px 20px 20px;
+                    float:left;
+                    background:#fff;
+                    border-right:1px solid #ccc;
+                    
+                }
+                input{
+                    width:268px;
+                    height:34px;
+                    font-size:14px;
+                    padding:10px;
+                    background:#fff;
+                    border:none;
+                    float:left;
+                    outline: none;
+                }
+            }
+            .register{
+                height:55px;
+                width:400px;
+                margin:0 auto;
+                background:#fff;
+                margin-top:65px;
+                text-align: center;
+                line-height:55px;
+                background:#e2231a;
+                font-size:16px;
+                cursor: pointer;
+                a{
+                   color:#fff;
+                }
+                &:hover{
+                    background:#c81623;
+                }
+            }
+            .company{
+                height:45px;
+                width:400px;
+                margin:0 auto;
+                li{
+                    &:nth-child(1){
+                        float:left;
+                        i{
+                            background-position: 0 -160px;
+                        }
+                    }
+                    &:nth-child(2){
+                        float:right;
+                        i{
+                            background-position: -40px -161px;
+                        }
+                    }
+                    font-size:14px;
+                    line-height:45px;
+                    a{
+                        color:#666;
+                        i{
+                            display:inline-block;
+                            width:25px;
+                            height:25px;
+                            margin-top:10px;
+                            background-image:url('../imgs/reg-icon.png');
+                           vertical-align: middle;
+                        }
+                        b{
+                            display:inline-block;
+                            font-weight: normal;
+                            position: relative;
+                            top:5px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+  // content end
+
+// footer start
+.footer{
+    height:190px;
+    width:100%;
+    .conFoot{
+        height:50px;
+        overflow: hidden;
+        .list{
+            margin-top:10px;
+            text-align: center;
+            font-size:12px;
+            a{
+                padding:0 10px;
+                color:#666;
+            }
+        }
+        .copy{
+            font-size:12px;
+            color:#666;
+            text-align: center;
+            margin-top:10px;
+        }
+    }
+}

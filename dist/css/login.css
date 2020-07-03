@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.main {
+  width: 1190px;
+  margin: 0 auto; }
+
+.header {
+  height: 120px;
+  width: 100%; }
+  .header .logo {
+    width: 300px;
+    padding: 15px 30px;
+    position: relative;
+    float: left; }
+    .header .logo h2 {
+      font-weight: normal;
+      position: absolute;
+      top: 36px;
+      left: 240px;
+      color: #666; }
+  .header .login {
+    float: right;
+    text-align: center;
+    line-height: 120px; }
+
+.content {
+  height: 475px;
+  background: #e93854; }
+  .content .conCenter {
+    background: url("../imgs/loginbk.png") no-repeat;
+    height: 100%;
+    position: relative; }
+    .content .conCenter .loginPage {
+      width: 350px;
+      height: 430px;
+      background: #fff;
+      position: absolute;
+      top: 10px;
+      left: 750px; }
+      .content .conCenter .loginPage .floor1 {
+        height: 20px;
+        background: #fff8f0;
+        padding: 10px 0; }
+        .content .conCenter .loginPage .floor1 i {
+          margin-left: 25px;
+          margin-right: 10px;
+          float: left;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url("../imgs/gantan.png") no-repeat; }
+        .content .conCenter .loginPage .floor1 p {
+          font-size: 12px;
+          text-align: center;
+          float: left;
+          vertical-align: middle;
+          color: #999; }
+      .content .conCenter .loginPage .floor2 {
+        height: 55px;
+        background: #fff; }
+        .content .conCenter .loginPage .floor2 li {
+          float: left;
+          width: 49%;
+          height: 18px;
+          text-align: center;
+          line-height: 18px;
+          margin: 19px 0;
+          font-size: 18px;
+          color: #666;
+          font-weight: 700;
+          cursor: pointer; }
+          .content .conCenter .loginPage .floor2 li:hover {
+            color: #e4393c; }
+          .content .conCenter .loginPage .floor2 li:nth-child(1) {
+            border-right: 1px solid #f4f4f4;
+            color: #e4393c; }
+      .content .conCenter .loginPage .floor3 {
+        height: 265px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding-top: 20px;
+        position: relative; }
+        .content .conCenter .loginPage .floor3 .codeImg {
+          width: 165px;
+          height: 165px;
+          position: absolute;
+          left: 85px;
+          float: left;
+          padding: 9px 0px 9px 15px; }
+          .content .conCenter .loginPage .floor3 .codeImg:hover {
+            left: 0; }
+          .content .conCenter .loginPage .floor3 .codeImg .hiddenImg {
+            float: left;
+            position: absolute;
+            left: 185px;
+            top: 0px;
+            display: none; }
+          .content .conCenter .loginPage .floor3 .codeImg:hover .hiddenImg {
+            display: block; }
+        .content .conCenter .loginPage .floor3 p {
+          margin-top: 180px;
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+          color: #666; }
+          .content .conCenter .loginPage .floor3 p a {
+            color: #e4393c; }
+        .content .conCenter .loginPage .floor3 .icont {
+          width: 240px;
+          height: 40px;
+          margin: 0 auto;
+          margin-top: 10px; }
+          .content .conCenter .loginPage .floor3 .icont li {
+            width: 33.3%;
+            float: left; }
+            .content .conCenter .loginPage .floor3 .icont li:nth-child(1) i {
+              background-position: 0 0; }
+            .content .conCenter .loginPage .floor3 .icont li:nth-child(2) i {
+              background-position: -27px 0; }
+            .content .conCenter .loginPage .floor3 .icont li:nth-child(3) i {
+              background-position: -54px 0; }
+            .content .conCenter .loginPage .floor3 .icont li i {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              background: url("../imgs/qr-coagent.png");
+              margin-top: 7px; }
+            .content .conCenter .loginPage .floor3 .icont li b {
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 40px;
+              position: absolute;
+              top: 224px;
+              padding-left: 10px; }
+      .content .conCenter .loginPage .hiddenfloor {
+        display: none;
+        width: 350px;
+        height: 265px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding-top: 20px;
+        position: relative;
+        position: absolute;
+        font-size: 14px;
+        top: 96px;
+        left: 0px; }
+        .content .conCenter .loginPage .hiddenfloor .phone {
+          height: 40px;
+          width: 312px;
+          margin: 0 auto;
+          border: 1px solid #ccc;
+          font-size: 14px; }
+          .content .conCenter .loginPage .hiddenfloor .phone .china {
+            width: 30px;
+            height: 10px;
+            line-height: 10px;
+            padding: 15px 10px 15px 20px;
+            float: left;
+            background: #fff;
+            border-right: 1px solid #ccc; }
+          .content .conCenter .loginPage .hiddenfloor .phone input {
+            width: 230px;
+            height: 20px;
+            padding: 10px;
+            float: left;
+            border: none;
+            outline: none; }
+        .content .conCenter .loginPage .hiddenfloor .checking {
+          height: 40px;
+          width: 312px;
+          margin: 0 auto;
+          border: 1px solid #ccc;
+          background: #fff;
+          margin-top: 40px; }
+          .content .conCenter .loginPage .hiddenfloor .checking .pass {
+            width: 30px;
+            height: 10px;
+            line-height: 10px;
+            padding: 15px 10px 15px 20px;
+            float: left;
+            background: #fff;
+            border-right: 1px solid #ccc; }
+          .content .conCenter .loginPage .hiddenfloor .checking input {
+            width: 230px;
+            height: 20px;
+            font-size: 14px;
+            padding: 10px;
+            background: #fff;
+            border: none;
+            float: left;
+            outline: none; }
+        .content .conCenter .loginPage .hiddenfloor .register {
+          height: 45px;
+          width: 312px;
+          margin: 0 auto;
+          background: #fff;
+          margin-top: 45px;
+          text-align: center;
+          line-height: 45px;
+          background: #e2231a;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer; }
+          .content .conCenter .loginPage .hiddenfloor .register:hover {
+            background: #c81623; }
+      .content .conCenter .loginPage .floor4 {
+        height: 20px;
+        background: #fff;
+        padding: 10px 20px;
+        position: relative;
+        margin-top: 288px; }
+        .content .conCenter .loginPage .floor4 li {
+          width: 55px;
+          float: left; }
+          .content .conCenter .loginPage .floor4 li:nth-child(2) {
+            width: 175px; }
+          .content .conCenter .loginPage .floor4 li:nth-child(1) i {
+            background-position: 0 0; }
+          .content .conCenter .loginPage .floor4 li:nth-child(2) i {
+            background-position: -20px 0; }
+          .content .conCenter .loginPage .floor4 li:nth-child(3) i {
+            background: url("../imgs/pwd-icons-new.png") no-repeat;
+            background-position: -101px -74px; }
+          .content .conCenter .loginPage .floor4 li i {
+            display: inline-block;
+            width: 20px;
+            height: 18px;
+            background: url("../imgs/QQ-weixin.png");
+            margin-top: 7px; }
+          .content .conCenter .loginPage .floor4 li b {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 40px;
+            position: absolute;
+            top: 6px;
+            padding-left: 8px;
+            color: #666; }
+
+.footer {
+  height: 190px;
+  width: 100%; }
+  .footer .conFoot {
+    height: 50px;
+    overflow: hidden; }
+    .footer .conFoot .list {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px; }
+      .footer .conFoot .list a {
+        padding: 0 10px;
+        color: #666; }
+    .footer .conFoot .copy {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      margin-top: 10px; }

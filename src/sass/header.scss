@@ -1,0 +1,153 @@
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.theader{
+    background:#fff;
+}
+.main{
+    width:1190px;
+    margin:0 auto;
+}
+.jdList{
+    float:right;
+    width:730px;
+    height:20px;
+    font-size:12px;
+    line-height: 20px;
+    padding:5px 0;
+    li{
+        &:hover .hidden1{
+            display:block;
+        }
+        &:hover .hidden2{
+            display:block;
+        }
+        &:hover .hidden3{
+            display:block;
+        }
+        a{
+            color:#666;
+        }
+        float:left;
+        padding:0 10px;
+        height:20px;
+        border-right:1px solid #ccc;
+        position: relative;
+        cursor: pointer;
+        &:first-child{
+            border:none;
+
+        }
+        &:nth-child(2) a{
+            color:#f10215;
+
+        }
+        &:last-child{
+            border:none;
+        }
+        i{
+            width:8px;
+            height:10px;
+            font-size:10px;
+        }
+        .show{
+            width:100%;
+            height:30px;
+            margin-top:-5px;
+            line-height:30px;
+            &:hover{
+                background:#fff;
+            }
+        }
+        
+        .hidden1{
+            position: absolute;
+            top:24px;
+            left:9px;
+            display:none;
+            width:280px;
+            height:160px;
+            border:1px solid #f1f1f1;
+            border-top:none;
+            z-index:10;
+            background:#fff;
+            
+            .hidden1-1{
+                border-bottom: 1px solid #ccc;
+                overflow: hidden;
+                padding:10px 15px;
+            }
+            .hidden1-2{
+                overflow: hidden;
+                margin-top:8px;
+                padding:0 15px;
+            }
+            .item{
+                float:left;
+                width: 125px;
+                height:24px;
+                line-height:24px;
+            }
+        }
+
+        .hidden2{
+            position: absolute;
+            top:24px;
+            left:9px;
+            display:none;
+            width:160px;
+            height:95px;
+            border:1px solid #f1f1f1;
+            border-top:none;
+            z-index:10;
+            background:#fff;
+            
+            .hidden2-1{
+                overflow: hidden;
+                padding:10px 15px;
+            }
+            .item{
+                float:left;
+                width: 65px;
+                height:24px;
+                line-height:24px;
+            }
+            
+        }
+
+        .hidden3{
+            position: absolute;
+            top:24px;
+            left:9px;
+            display:none;
+            width:175px;
+            height:250px;
+            border:1px solid #f1f1f1;
+            border-top:none;
+            z-index:10;
+            background:#fff;
+            
+            .hidden3-1{
+                border-bottom: 1px solid #ccc;
+                overflow: hidden;
+                padding:10px 15px;
+            }
+            .hidden3-2{
+                overflow: hidden;
+                margin-top:8px;
+                padding:0 15px;
+            }
+            .item{
+                float:left;
+                width: 72px;
+                height:24px;
+                line-height:24px;
+            }
+            
+        }
+    }
+}

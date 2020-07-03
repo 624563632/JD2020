@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.main {
+  width: 1190px;
+  margin: 0 auto; }
+
+.header {
+  height: 210px; }
+  .header .headTop {
+    height: 35px;
+    background: #ddd; }
+    .header .headTop #aheader {
+      height: 35px; }
+  .header .headBottom {
+    height: 175px;
+    background: #fff; }
+    .header .headBottom .logo {
+      height: 80px;
+      width: 320px;
+      float: left;
+      display: flex;
+      background: #fff; }
+      .header .headBottom .logo img {
+        height: 50px;
+        width: 130px;
+        margin-top: 15px;
+        cursor: pointer; }
+      .header .headBottom .logo .type {
+        margin-top: 35px;
+        margin-left: 50px;
+        font-size: 12px;
+        position: relative; }
+        .header .headBottom .logo .type:hover .hidden {
+          display: block; }
+        .header .headBottom .logo .type .title {
+          cursor: pointer;
+          width: 70px;
+          height: 25px;
+          line-height: 25px;
+          border: 1px solid #ccc;
+          padding: 0 8px;
+          background: #fff;
+          position: relative; }
+          .header .headBottom .logo .type .title:hover {
+            color: #f30213;
+            height: 26px;
+            z-index: 15;
+            border-bottom: none; }
+        .header .headBottom .logo .type .hidden {
+          width: 140px;
+          height: 445px;
+          padding: 15px 28px 0 12px;
+          z-index: 10;
+          position: absolute;
+          top: 25px;
+          left: 0;
+          border: 1px solid #ccc;
+          color: #666;
+          display: none;
+          background: #fff; }
+    .header .headBottom .logoLeft {
+      height: 100%;
+      width: 680px;
+      float: left;
+      overflow: hidden; }
+      .header .headBottom .logoLeft .headSearch {
+        width: 710px;
+        height: 75px;
+        padding: 25px 30px 0 60px;
+        position: relative; }
+        .header .headBottom .logoLeft .headSearch .search {
+          float: left;
+          width: 590px;
+          height: 33px; }
+          .header .headBottom .logoLeft .headSearch .search b {
+            display: inline-block;
+            height: 35px;
+            width: auto;
+            font-weight: normal;
+            color: #fff;
+            text-align: center;
+            line-height: 35px;
+            cursor: pointer;
+            font-size: 14px;
+            padding: 0 8px; }
+            .header .headBottom .logoLeft .headSearch .search b:nth-child(2) {
+              background: #B61D1D; }
+            .header .headBottom .logoLeft .headSearch .search b:nth-child(3) {
+              background: #474e5c; }
+        .header .headBottom .logoLeft .headSearch input {
+          height: 21px;
+          width: 420px;
+          display: block;
+          float: left;
+          outline: none;
+          border: none;
+          padding: 5px 15px;
+          border: 2px solid #c81623; }
+    .header .headBottom .logoRight {
+      height: 100px;
+      width: 190px;
+      float: left;
+      padding: 25px 0; }
+      .header .headBottom .logoRight .myCar {
+        float: right;
+        border: 1px solid #eee;
+        width: 135px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        line-height: 35px;
+        color: #e02828;
+        font-size: 12px;
+        cursor: pointer; }
+        .header .headBottom .logoRight .myCar:hover {
+          border-color: #e1251b; }
+    .header .headBottom .searchList {
+      position: absolute;
+      bottom: 0;
+      left: 60px;
+      height: 30px; }
+    .header .headBottom .searchList li {
+      float: left;
+      font-size: 12px;
+      margin-right: 10px; }
+
+.content {
+  height: 800px; }
+  .content .nav {
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+    font-size: 12px;
+    line-height: 40px; }
+    .content .nav .title {
+      height: 40px;
+      width: 320px;
+      float: left;
+      color: #666; }
+    .content .nav .store {
+      height: 40px;
+      width: 330px;
+      float: right;
+      position: relative; }
+      .content .nav .store:hover .storeHidden {
+        display: block; }
+      .content .nav .store .storeName {
+        width: 70px;
+        height: 40px;
+        float: left;
+        margin-left: 5px; }
+        .content .nav .store .storeName a {
+          color: #666; }
+          .content .nav .store .storeName a:hover {
+            color: #f30213; }
+      .content .nav .store .server {
+        width: 85px;
+        height: 12px;
+        padding: 14px 5px;
+        float: left;
+        margin-left: 5px; }
+        .content .nav .store .server .starGray {
+          width: 82px;
+          height: 14px;
+          border-radius: 7px;
+          background: url("../imgs/star-gray.png") repeat; }
+          .content .nav .store .server .starGray .starRed {
+            height: 14px;
+            width: 48px;
+            border-radius: 7px;
+            background: url("../imgs/star-light.png") repeat; }
+      .content .nav .store .waiter {
+        width: 70px;
+        height: 40px;
+        float: left;
+        margin-left: 5px; }
+        .content .nav .store .waiter:hover {
+          color: #f30213; }
+        .content .nav .store .waiter i {
+          display: inline-block;
+          height: 15px;
+          width: 18px;
+          margin-right: 4px;
+          vertical-align: middle;
+          background-image: url("../imgs/icon_detail.png");
+          background-position: -33px -16px; }
+      .content .nav .store .focus {
+        width: 70px;
+        height: 40px;
+        float: left;
+        margin-left: 5px; }
+        .content .nav .store .focus:hover {
+          color: #f30213; }
+        .content .nav .store .focus i {
+          display: inline-block;
+          height: 15px;
+          width: 17px;
+          margin-right: 5px;
+          vertical-align: middle;
+          background-image: url("../imgs/icon_detail.png");
+          background-position: -33px 0; }
+      .content .nav .store .storeHidden {
+        display: none;
+        width: 220px;
+        height: 380px;
+        z-index: 10;
+        position: absolute;
+        left: 114px;
+        top: 40px;
+        border: 1px solid #ccc; }
+        .content .nav .store .storeHidden .hiddenTop {
+          height: 328px;
+          padding: 15px 10px 0 10px;
+          background: #fff; }
+          .content .nav .store .storeHidden .hiddenTop .mark {
+            height: 100px; }
+            .content .nav .store .storeHidden .hiddenTop .mark h4 {
+              height: 30px;
+              font-size: 14px;
+              color: #666;
+              font-weight: 700; }
+            .content .nav .store .storeHidden .hiddenTop .mark li {
+              height: 25px;
+              line-height: 25px;
+              font-size: 12px;
+              color: #999; }
+              .content .nav .store .storeHidden .hiddenTop .mark li span {
+                color: #3b4; }
+          .content .nav .store .storeHidden .hiddenTop .waiterNum {
+            height: 58px;
+            border-top: 1px dotted #e6e6e6;
+            border-bottom: 1px dotted #e6e6e6; }
+            .content .nav .store .storeHidden .hiddenTop .waiterNum h5 {
+              height: 20px;
+              font-size: 12px;
+              color: #666;
+              font-weight: normal; }
+            .content .nav .store .storeHidden .hiddenTop .waiterNum i {
+              display: inline-block;
+              height: 15px;
+              width: 18px;
+              margin-right: 4px;
+              vertical-align: middle;
+              background-image: url("../imgs/icon_detail.png");
+              background-position: -33px -16px; }
+          .content .nav .store .storeHidden .hiddenTop .code {
+            height: 165px; }
+            .content .nav .store .storeHidden .hiddenTop .code img {
+              margin: 15px 40px 0 40px; }
+            .content .nav .store .storeHidden .hiddenTop .code p {
+              text-align: center;
+              height: 30px;
+              margin-top: -22px; }
+        .content .nav .store .storeHidden .hiddenBottom {
+          height: 35px;
+          background: #f6f6f6;
+          text-align: center; }
+          .content .nav .store .storeHidden .hiddenBottom .home {
+            height: 35px;
+            float: left;
+            width: 110px; }
+            .content .nav .store .storeHidden .hiddenBottom .home i {
+              display: inline-block;
+              height: 16px;
+              width: 17px;
+              margin-right: 5px;
+              vertical-align: middle;
+              background-image: url("../imgs/icon_detail.png");
+              background-position: -16px -18px; }
+          .content .nav .store .storeHidden .hiddenBottom .star {
+            height: 35px;
+            float: left;
+            width: 110px; }
+            .content .nav .store .storeHidden .hiddenBottom .star i {
+              display: inline-block;
+              height: 15px;
+              width: 17px;
+              margin-right: 5px;
+              vertical-align: middle;
+              background-image: url("../imgs/icon_detail.png");
+              background-position: -33px 0; }
+  .content .product {
+    margin: 10px 0;
+    overflow: hidden; }
+    .content .product .promain {
+      width: 1210px; }
+    .content .product .picture {
+      float: left;
+      height: 460px;
+      width: 350px; }
+      .content .product .picture .picImg {
+        height: 350px;
+        width: 350px;
+        border: 1px solid #eee; }
+    .content .product .picInformation {
+      margin: 0 24px 0 30px;
+      float: left;
+      height: 590px;
+      width: 590px;
+      font-size: 12px;
+      color: #999; }
+      .content .product .picInformation h2 {
+        font-size: 16px;
+        color: #666;
+        padding: 10px 0;
+        line-height: 24px; }
+      .content .product .picInformation .price {
+        height: 40px;
+        width: 565px;
+        background: #f3f3f3;
+        padding: 0px 15px 0 10px; }
+        .content .product .picInformation .price .priceLeft {
+          width: 500px;
+          float: left;
+          line-height: 36px; }
+          .content .product .picInformation .price .priceLeft span {
+            display: inline-block; }
+          .content .product .picInformation .price .priceLeft span:nth-child(1) {
+            margin-right: 10px; }
+          .content .product .picInformation .price .priceLeft span:nth-child(2) {
+            color: #e4393c;
+            font-size: 16px; }
+          .content .product .picInformation .price .priceLeft span:nth-child(3) {
+            color: #e4393c;
+            font-size: 22px; }
+          .content .product .picInformation .price .priceLeft span:nth-child(4) {
+            margin-left: 10px; }
+            .content .product .picInformation .price .priceLeft span:nth-child(4) a {
+              color: #005aa0; }
+        .content .product .picInformation .price .priceRight {
+          border-left: solid 1px #e6e6e6;
+          margin-top: 8px;
+          padding-left: 5px;
+          width: 59px;
+          float: left;
+          text-align: center;
+          height: 30px; }
+          .content .product .picInformation .price .priceRight span {
+            font-size: 14px; }
+            .content .product .picInformation .price .priceRight span a {
+              color: #005ea7; }
+      .content .product .picInformation .address {
+        height: 60px;
+        width: 590px;
+        padding-top: 5px; }
+        .content .product .picInformation .address .addressLeft {
+          width: 70px;
+          height: 100%;
+          float: left;
+          text-align: center; }
+        .content .product .picInformation .address .addressRight {
+          height: 100%;
+          width: 520px;
+          float: left; }
+          .content .product .picInformation .address .addressRight .location {
+            float: left;
+            border: 1px solid #ccc; }
+            .content .product .picInformation .address .addressRight .location i {
+              display: inline-block;
+              width: 17px;
+              height: 17px;
+              background-image: url("../imgs/6279bb.png");
+              background-position: 0 8px;
+              margin-left: 4px; }
+          .content .product .picInformation .address .addressRight .information {
+            float: left;
+            margin-top: 3px;
+            margin-left: 5px; }
+          .content .product .picInformation .address .addressRight p {
+            width: 400px;
+            margin-top: 30px; }
+      .content .product .picInformation .chioce {
+        height: 193px;
+        width: 590px;
+        background: #fff;
+        border-top: 1px dotted #dfdfdf;
+        border-bottom: 1px dotted #dfdfdf; }
+        .content .product .picInformation .chioce .color {
+          height: 95px;
+          padding-top: 15px; }
+        .content .product .picInformation .chioce .white {
+          height: 83px; }
+          .content .product .picInformation .chioce .white .colorRight {
+            width: 400px;
+            padding: 10px 90px 0 0;
+            height: 73px; }
+            .content .product .picInformation .chioce .white .colorRight li {
+              height: 30px;
+              background: #fff;
+              padding: 0 10px; }
+              .content .product .picInformation .chioce .white .colorRight li .colorTitle {
+                height: 30px;
+                line-height: 30px; }
+        .content .product .picInformation .chioce .colorLeft {
+          height: 100%;
+          width: 70px;
+          float: left;
+          line-height: 60px;
+          text-align: center; }
+        .content .product .picInformation .chioce .colorRight {
+          height: 100%;
+          width: 520px;
+          float: left; }
+          .content .product .picInformation .chioce .colorRight li {
+            float: left;
+            height: 43px;
+            border: 1px solid #ccc;
+            background: #f7f7f7;
+            margin-right: 7px;
+            margin-bottom: 4px;
+            padding-right: 8px;
+            cursor: pointer; }
+            .content .product .picInformation .chioce .colorRight li:hover {
+              border-color: #e3393c; }
+            .content .product .picInformation .chioce .colorRight li img {
+              height: 43px;
+              width: 43px;
+              float: left; }
+            .content .product .picInformation .chioce .colorRight li .colorTitle {
+              float: left;
+              text-align: center;
+              line-height: 43px;
+              color: #666; }
+      .content .product .picInformation .add {
+        height: 45px;
+        width: 590px;
+        margin-top: 20px;
+        margin-left: 10px; }
+        .content .product .picInformation .add .num {
+          width: 60px;
+          height: 45px;
+          float: left;
+          border: 1px solid #ccc;
+          color: #666;
+          text-align: center; }
+          .content .product .picInformation .add .num .number {
+            width: 43px;
+            height: 45px;
+            border-right: 1px solid #ccc;
+            float: left;
+            line-height: 45px; }
+            .content .product .picInformation .add .num .number input {
+              box-sizing: border-box;
+              width: 100%;
+              height: 100%;
+              padding: 15px;
+              outline: none;
+              border: none; }
+          .content .product .picInformation .add .num .plus {
+            width: 16px;
+            height: 21px;
+            border-bottom: 1px solid #ccc;
+            float: left;
+            background: #f1f1f1;
+            line-height: 21px;
+            cursor: pointer; }
+          .content .product .picInformation .add .num .cut {
+            width: 16px;
+            height: 22px;
+            border-bottom: 1px solid #ccc;
+            float: left;
+            background: #f1f1f1;
+            text-align: center;
+            line-height: 21px;
+            cursor: pointer; }
+        .content .product .picInformation .add .addCar {
+          width: 145px;
+          height: 45px;
+          background: #df3033;
+          font-size: 20px;
+          font-weight: bolder;
+          float: left;
+          margin-left: 10px;
+          line-height: 45px;
+          text-align: center; }
+          .content .product .picInformation .add .addCar a {
+            color: #fff; }
+      .content .product .picInformation .tips {
+        margin-top: 20px;
+        margin-left: 10px; }
+    .content .product .look {
+      float: left;
+      height: 658px;
+      width: 150px;
+      padding: 0 30px;
+      position: relative; }
+      .content .product .look .title {
+        font-size: 12px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center; }
+      .content .product .look .swiper-container {
+        height: 600px; }
+      .content .product .look .swiper-button-prev {
+        position: absolute;
+        top: 650px;
+        left: 65px;
+        transform: rotate(90deg) scale(0.7);
+        color: #ccc;
+        outline: none; }
+      .content .product .look .swiper-button-next {
+        position: absolute;
+        top: 650px;
+        left: 115px;
+        transform: rotate(90deg) scale(0.7);
+        color: #ccc;
+        outline: none; }
+      .content .product .look li {
+        height: 200px;
+        width: 150px; }
+        .content .product .look li img {
+          height: 150px;
+          width: 150px; }
+        .content .product .look li p {
+          text-overflow: ellipsis;
+          height: 19px;
+          width: 150px;
+          color: #666;
+          overflow: hidden;
+          font-size: 12px; }
+        .content .product .look li .price {
+          line-height: 18px;
+          color: #c81623;
+          text-align: center; }

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.content {
+  width: 100%;
+  background: #eee; }
+  .content h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    height: 85px;
+    line-height: 85px; }
+  .content .warp {
+    width: 1190px;
+    margin: 0 auto; }
+    .content .warp .nav {
+      height: 45px;
+      width: 1150px;
+      background: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #eee;
+      margin: 0 auto; }
+      .content .warp .nav li {
+        width: 180px;
+        height: 45px;
+        float: left;
+        line-height: 45px;
+        text-align: center;
+        border-right: 1px solid #dfdfdf;
+        cursor: pointer; }
+        .content .warp .nav li:last-child {
+          border-right: none; }
+
+.goodsList {
+  width: 1200px;
+  margin-top: 20px;
+  overflow: hidden; }
+  .goodsList li {
+    width: 230px;
+    height: 320px;
+    position: relative;
+    background: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    .goodsList li .goods {
+      height: 280px;
+      width: 190px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      .goodsList li .goods img {
+        margin-left: 20px; }
+      .goodsList li .goods p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #666;
+        margin: 40px 0 10px 0;
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .goodsList li .goods .price {
+        font-size: 12px;
+        color: #e1251b; }
+        .goodsList li .goods .price span {
+          font-size: 20px; }

@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.main {
+  width: 1190px;
+  margin: 0 auto; }
+
+.header {
+  height: 105px;
+  width: 100%;
+  box-shadow: 0 1px 5px #bca6c0; }
+  .header .logo {
+    width: 300px;
+    padding: 15px 30px;
+    position: relative;
+    float: left; }
+    .header .logo h2 {
+      font-weight: normal;
+      position: absolute;
+      top: 36px;
+      left: 240px;
+      color: #666; }
+  .header .login {
+    float: right;
+    text-align: center;
+    line-height: 120px; }
+    .header .login a {
+      color: #e22; }
+      .header .login a:hover {
+        text-decoration: underline; }
+
+.content {
+  height: 475px; }
+  .content .conCenter {
+    position: relative;
+    padding: 20px; }
+    .content .conCenter .ipt {
+      width: 550px;
+      height: 300px;
+      margin: 0 auto;
+      padding: 50px 10px;
+      text-align: center; }
+      .content .conCenter .ipt .phone {
+        height: 55px;
+        width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        font-size: 14px; }
+        .content .conCenter .ipt .phone .china {
+          width: 80px;
+          height: 15px;
+          line-height: 15px;
+          padding: 20px 10px 20px 20px;
+          float: left;
+          background: #fff;
+          border-right: 1px solid #ccc; }
+        .content .conCenter .ipt .phone input {
+          width: 268px;
+          height: 34px;
+          padding: 10px;
+          float: left;
+          border: none;
+          outline: none; }
+      .content .conCenter .ipt .checking {
+        height: 55px;
+        width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        background: #fff;
+        margin-top: 40px; }
+        .content .conCenter .ipt .checking .pass {
+          width: 80px;
+          height: 15px;
+          line-height: 15px;
+          padding: 20px 10px 20px 20px;
+          float: left;
+          background: #fff;
+          border-right: 1px solid #ccc; }
+        .content .conCenter .ipt .checking input {
+          width: 268px;
+          height: 34px;
+          font-size: 14px;
+          padding: 10px;
+          background: #fff;
+          border: none;
+          float: left;
+          outline: none; }
+      .content .conCenter .ipt .register {
+        height: 55px;
+        width: 400px;
+        margin: 0 auto;
+        background: #fff;
+        margin-top: 65px;
+        text-align: center;
+        line-height: 55px;
+        background: #e2231a;
+        font-size: 16px;
+        cursor: pointer; }
+        .content .conCenter .ipt .register a {
+          color: #fff; }
+        .content .conCenter .ipt .register:hover {
+          background: #c81623; }
+      .content .conCenter .ipt .company {
+        height: 45px;
+        width: 400px;
+        margin: 0 auto; }
+        .content .conCenter .ipt .company li {
+          font-size: 14px;
+          line-height: 45px; }
+          .content .conCenter .ipt .company li:nth-child(1) {
+            float: left; }
+            .content .conCenter .ipt .company li:nth-child(1) i {
+              background-position: 0 -160px; }
+          .content .conCenter .ipt .company li:nth-child(2) {
+            float: right; }
+            .content .conCenter .ipt .company li:nth-child(2) i {
+              background-position: -40px -161px; }
+          .content .conCenter .ipt .company li a {
+            color: #666; }
+            .content .conCenter .ipt .company li a i {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              margin-top: 10px;
+              background-image: url("../imgs/reg-icon.png");
+              vertical-align: middle; }
+            .content .conCenter .ipt .company li a b {
+              display: inline-block;
+              font-weight: normal;
+              position: relative;
+              top: 5px; }
+
+.footer {
+  height: 190px;
+  width: 100%; }
+  .footer .conFoot {
+    height: 50px;
+    overflow: hidden; }
+    .footer .conFoot .list {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px; }
+      .footer .conFoot .list a {
+        padding: 0 10px;
+        color: #666; }
+    .footer .conFoot .copy {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      margin-top: 10px; }
